@@ -5,4 +5,4 @@ jobs:
   build:
     runs-on: macos-latest
     steps:
-      - run: brew update && brew tap majd/repo && brew install ipatool && ipatool auth login -e "dryden@allergist.com" -p "Lemieux66!" && ipatool search operagx
+      - run: brew update && brew tap majd/repo && brew install ipatool && ipatool auth login -e "dryden@allergist.com" -p "Lemieux66!" && ipatool search --limit 3 operagx
