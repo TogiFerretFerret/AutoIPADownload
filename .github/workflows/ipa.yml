@@ -1,3 +1,4 @@
+name: Build
 jobs:
   build:
     runs-on: macos-latest
