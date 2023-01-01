@@ -1,4 +1,7 @@
 name: Build
+on: 
+  commit:
+  push:
 jobs:
   build:
     runs-on: macos-latest
