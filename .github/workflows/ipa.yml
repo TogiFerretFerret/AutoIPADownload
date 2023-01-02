@@ -5,6 +5,9 @@ jobs:
   build:
     runs-on: macos-latest
     steps:
-      - run: brew update && brew tap majd/repo && brew install ipatool && ipatool auth login --email dryden@allergist.com -p Lemieux66!
-      - run: ipatool search --limit 1 TestFlight
+      - uses: actions/checkout@v2
+      - uses: futureware-tech/simulator-action@v2
+        with:
+          model: 'iPhone 8'
+      - run: flutter drive
 
