@@ -2,9 +2,9 @@
 name: Download IPA
 
 env:
-  appUrl: "https://apps.apple.com/jp/app/id1377018522"
+  appUrl: "https://apps.apple.com/us/app/opera-gx/id1559740799"
   appStore: "jp"
-  appName: "allstars"
+  appName: "opera-gx"
   PYTHONIOENCODING: utf-8
 
 on: 
